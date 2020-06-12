@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "angular-spacex-graphql-codegen",
+      "public": "dist/angular-spacex-graphql-codegen",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

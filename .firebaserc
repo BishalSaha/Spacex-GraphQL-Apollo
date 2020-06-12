@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "spacex-graphql-apollo": {
+      "hosting": {
+        "angular-spacex-graphql-codegen": [
+          "spacex-graphql-apollo"
+        ]
+      }
+    }
+  }
+}
